@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "163540456435",
+    "project_id": "sadaat-electrical-store",
+    "storage_bucket": "sadaat-electrical-store.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:163540456435:android:fc5db39c90bbdf530ab886",
+        "android_client_info": {
+          "package_name": "com.example.codesnippets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "163540456435-10r86o2dfr06ulmsdeuhnn5v783gerv3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4WXb1wbVw5hPRAUNRpjdwGxcymSl4Bq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "163540456435-10r86o2dfr06ulmsdeuhnn5v783gerv3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

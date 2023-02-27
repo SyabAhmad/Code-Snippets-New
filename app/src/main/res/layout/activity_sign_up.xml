@@ -4,19 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    app:layout_constraintEnd_toEndOf="parent"
-    app:layout_constraintHorizontal_bias="0.121"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent" >
-
-
-
+    tools:context=".signUp">
 
     <ScrollView
         android:id="@+id/scrollView2"
         android:layout_width="match_parent"
-        android:layout_height="899dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -76,13 +69,13 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="20sp"
                     android:layout_marginBottom="40sp"
-                    android:text="Login"
+                    android:text="Sign Up"
                     android:textAlignment="center"
                     android:textColor="@color/red1"
                     android:textSize="50sp" />
 
                 <EditText
-                    android:id="@+id/mail"
+                    android:id="@+id/mail1"
                     android:layout_width="296sp"
                     android:layout_height="67sp"
                     android:layout_gravity="center_horizontal"
@@ -91,7 +84,7 @@
                     android:textAlignment="center" />
 
                 <EditText
-                    android:id="@+id/pinCode"
+                    android:id="@+id/pinCode1"
                     android:layout_width="295sp"
                     android:layout_height="59sp"
                     android:layout_gravity="center_horizontal"
@@ -100,24 +93,37 @@
                     android:textAlignment="center" />
 
                 <Button
-                    android:id="@+id/login"
+                    android:id="@+id/signUp1"
                     android:layout_width="284sp"
                     android:layout_height="63sp"
                     android:layout_gravity="center_horizontal"
                     android:backgroundTint="@color/red1"
-                    android:text="Login"
+                    android:text="Sign Up"
                     android:textAlignment="center"
                     android:textSize="30sp" />
 
-                <Button
-                    android:id="@+id/forgotPassword"
-                    android:layout_width="wrap_content"
+                <TextView
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:backgroundTint="@color/red1"
-                    android:text="Forget Password..."
+                    android:text="Contact Support"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="@color/red1"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/red1"
+                    android:text="By Clicking sign-up \nYou agree to our terms and \nconditions\n"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/red1"
+                    android:layout_marginTop="20dp"
                     android:textSize="20sp" />
 
 
@@ -126,20 +132,20 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="70dp"
-                    android:text="Don't have an account"
+                    android:layout_marginTop="50dp"
+                    android:text="Already have an account"
                     android:textAlignment="center"
                     android:textColor="@color/red1"
                     android:textSize="20sp" />
 
 
                 <Button
-                    android:id="@+id/registerNow"
+                    android:id="@+id/logIn1"
                     android:layout_width="284dp"
                     android:layout_height="63dp"
                     android:layout_gravity="center_horizontal"
                     android:backgroundTint="@color/red1"
-                    android:text="Register"
+                    android:text="Log-In"
                     android:textAlignment="center"
                     android:textSize="30sp" />
 

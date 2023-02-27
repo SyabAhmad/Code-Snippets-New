@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "563013965172",
+    "firebase_url": "https://snippets-6b5a5-default-rtdb.firebaseio.com",
+    "project_id": "snippets-6b5a5",
+    "storage_bucket": "snippets-6b5a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563013965172:android:a11e0d77ac97eb21c00821",
+        "android_client_info": {
+          "package_name": "com.example.codesnippets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563013965172-nrr5o0r1n2ucf66b9tjtk58ari2bqs8j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI3KQZxdeqYXjcLV0_j8vTs_NzQlAhVUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563013965172-nrr5o0r1n2ucf66b9tjtk58ari2bqs8j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
