@@ -17,7 +17,7 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.database.FirebaseDatabase;
+
 
 import org.w3c.dom.Document;
 
@@ -29,7 +29,6 @@ public class signUp extends AppCompatActivity {
     protected EditText pass1;
     FirebaseAuth firebaseAuth;
     FirebaseUser firebaseUser;
-    FirebaseDatabase firebaseDatabase;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

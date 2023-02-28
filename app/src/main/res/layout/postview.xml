@@ -1,61 +1,90 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="300dp"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_marginBottom="20dp"
+
     >
 
     <ImageView
         android:id="@+id/postImg"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="410dp"
+        android:maxHeight="410dp"
+        android:clickable="true"
         android:src="@drawable/logo1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:clickable="true"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
-        app:flow_horizontalAlign="center"
-        android:gravity="center_horizontal">
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true" />
 
-        <ImageButton
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        app:flow_horizontalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/postImg"
+        app:layout_constraintStart_toStartOf="@+id/postImg"
+        app:layout_constraintTop_toBottomOf="@+id/postImg">
+
+        <ImageView
             android:id="@+id/like1"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:src="@drawable/like"/>
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:src="@drawable/like1" />
+        <!--            android:background="@drawable/like1"-->
+
+
         <TextView
             android:id="@+id/likeValue"
             android:layout_width="50dp"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text="0"
-            android:textAlignment="center"
-            android:gravity="center"/>
-        <ImageButton
+            android:textAlignment="center" />
+
+        <ImageView
             android:id="@+id/dislike1"
-            android:layout_width="40dp"
-            android:layout_height="wrap_content"
-            android:src="@drawable/dislike"/>
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:src="@drawable/like1" />
+        <!--            android:background="@drawable/like1"/>-->
+
         <TextView
             android:id="@+id/dislikeValue"
             android:layout_width="50dp"
             android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
             android:text="0"
-            android:textAlignment="center"
-            android:gravity="center"/>
-        <ImageButton
+            android:textAlignment="center" />
+
+        <ImageView
             android:id="@+id/download"
             android:layout_width="40dp"
             android:layout_height="match_parent"
-            android:src="@drawable/download"/>
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:background="@drawable/download" />
+        <!--            android:background="@drawable/download" />-->
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
